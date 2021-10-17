@@ -1,0 +1,162 @@
+/* *{
+    font-family: "Montserrat", sans-serif;
+}
+.bg-video{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    z-index: -1;
+}
+.color-wh{
+    color: white;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.name, .game-name {
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+.details{
+    background-color: white;
+    width: 100vw;
+}
+.stickland{
+    padding: 10px;
+    border-radius: 10px;
+}
+.squidgame{
+    padding: 10px;
+    border-radius: 10px;
+}
+.row{
+    align-items: center;
+    justify-content: center;
+}
+.svgs{
+    height: 300px;
+    width: 200px;
+}
+.stick{
+    height: 250px
+}
+.gradient{
+    color: white;
+    background: rgb(0, 97, 242);
+  background: linear-gradient(
+    135deg,
+    rgba(0, 97, 242, 1) 0%,
+    rgba(105, 0, 199, 1) 100%
+  );
+}
+.p{
+    padding: 5px;
+}
+.footer{
+    padding: 20px;
+    align-items: center;
+    width: 100vw;
+} */
+html,
+body {
+  height: 100%;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.gradient {
+  background: rgb(0, 97, 242);
+  background: linear-gradient(
+    135deg,
+    rgba(0, 97, 242, 1) 0%,
+    rgba(105, 0, 199, 1) 100%
+  );
+  background-image: url('../img/bg.PNG');
+}
+
+.page-header {
+  /* margin-top: 4rem; */
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+.feature {
+  color: #fff;
+}
+
+.feature ul {
+  padding-left: 2rem;
+  list-style-type: none;
+}
+
+.feature ul li {
+  padding-left: 2rem;
+  background-image: url(../img/check.svg);
+  background-repeat: no-repeat;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.icon {
+  color: #fff;
+  height: 5rem;
+  width: 5rem;
+  font-size: 1.75rem;
+  border-radius: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery {
+  background-color: whitesmoke;
+}
+
+.gallery img {
+  border-radius: 5%;
+}
+
+.services {
+  color: #fff;
+}
+
+footer {
+  color: #fff;
+  font-size: 1rem;
+  margin: 0;
+  padding: 1rem;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+.h-img{
+  height: 200px;
+}
+.mail-icon{
+  height: 40px;
+}
+.c-icons{
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.squid{
+  align-self: center;
+}
+.pad{
+  padding: 10px;
+}
