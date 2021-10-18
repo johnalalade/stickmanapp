@@ -72,7 +72,12 @@ body {
   height: 100%;
   font-size: 1rem;
   font-family: "Montserrat", sans-serif;
+  width: 100vw;
 }
+
+/* section{
+  width: 100vw;
+} */
 
 .gradient {
   background: rgb(0, 97, 242);
@@ -82,6 +87,7 @@ body {
     rgba(105, 0, 199, 1) 100%
   );
   background-image: url('../img/bg.PNG');
+  width: 100vw;
 }
 
 .page-header {
@@ -160,3 +166,28 @@ a {
 .pad{
   padding: 10px;
 }
+.flex-a{
+  justify-content: space-around;
+  align-items: center;
+}
+/* .roads{
+  min-height: 100vh;
+} */
+.road-h{
+  text-align: center;
+  padding-bottom: 15px;
+}
+/* .road-maps{
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 500px; 
+  height: 200px;
+} */
+
+.new-svgs{
+  height: 200px;
+}
+.new-svgs-s{
+  height: 300px;
+}
+
