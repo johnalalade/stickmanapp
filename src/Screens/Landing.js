@@ -1,17 +1,17 @@
 // import Video from './video.mp4';
-import Image2 from "../img/handshake.svg"
-import Image3 from '../img/seo_monochromatic.svg'
+// import Image2 from "../img/handshake.svg"
+// import Image3 from '../img/seo_monochromatic.svg'
 import Image1 from '../img/sticklogo.jpeg'
-import MailIcon from '../img/mailicon.png'
-import PhoneIcon from '../img/phoneicon.jfif'
-import InternetIcon from '../img/interneticon.jfif'
-import Play from '../img/play.PNG'
-import WebLaunch from '../img/web-launch.PNG'
-import Communi from '../img/communi.PNG'
-import Sell from '../img/sell.PNG'
-import Collect from '../img/collect.PNG'
-import Agree from '../img/agreement.PNG'
-import Launch from '../img/launch-pad.PNG'
+// import MailIcon from '../img/mailicon.png'
+// import PhoneIcon from '../img/phoneicon.jfif'
+// import InternetIcon from '../img/interneticon.jfif'
+// import Play from '../img/play.PNG'
+// import WebLaunch from '../img/web-launch.PNG'
+// import Communi from '../img/communi.PNG'
+// import Sell from '../img/sell.PNG'
+// import Collect from '../img/collect.PNG'
+// import Agree from '../img/agreement.PNG'
+// import Launch from '../img/launch-pad.PNG'
 import Squid from '../img/squid1.JPG'
 import SquidP from '../img/squid2.JPG'
 import './style.css';
@@ -97,7 +97,7 @@ function Landing() {
 
       <nav class="navbar navbar-expand-lg navbar-light bg-nav fixed-top">
         <div class="container">
-          <a class="navbar-brand" href="#"><img src={Image1} className="logo" alt="" /></a>
+          <a class="navbar-brand" href="#overview"><img src={Image1} className="logo" alt="" /></a>
           <button
             class="navbar-toggler"
             type="button"
