@@ -131,7 +131,7 @@ function Landing() {
         <div class="container pt-3">
           <div class="row align-items-center justify-content-center">
             <div class="col-md-5 toppers">
-              <h1 className="bold-head h-h1">Stickland: Squidgame...</h1>
+              <h1 className="bold-head h-h1">Stickland: Squidgame</h1>
               <a href="https://www.solana.com" id="overview">
                 <img src="https://cdn.dorik.com/5f95e1fddbb5f5001186829f/613668d3f58004001180a673/images/powered_glb6f1cb.webp" alt="Powered By Solana" className="solana"/>
               </a>
