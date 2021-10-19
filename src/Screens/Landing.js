@@ -167,7 +167,7 @@ function Landing() {
 
       <section class="feature gradient">
 
-        <div class="container">
+        <div class="container text-center">
           <div class="row align-items-center">
             {/* <div class="col-md-6">
               <img
