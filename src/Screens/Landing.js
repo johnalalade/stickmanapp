@@ -95,9 +95,9 @@ function Landing() {
         </div>
       </div> */}
 
-      {/* <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-light bg-nav fixed-top">
         <div class="container">
-          <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" /></a>
+          <a class="navbar-brand" href="#"><img src={Image1} className="logo" alt="" /></a>
           <button
             class="navbar-toggler"
             type="button"
@@ -115,27 +115,29 @@ function Landing() {
           >
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#overview">Overview</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#road-map">Road Map</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#socials">Socials</a>
               </li>
             </ul>
           </div>
         </div>
-      </nav> */}
+      </nav>
       <header class="page-header gradient">
         <div class="container pt-3">
           <div class="row align-items-center justify-content-center">
-            <div class="col-md-5">
-              <h1>Stickland</h1>
-              <h3>Squid Game</h3>
-              <p>
+            <div class="col-md-5 toppers">
+              <h1 className="bold-head h-h1">Stickland: Squidgame...</h1>
+              <a href="https://www.solana.com" id="overview">
+                <img src="https://cdn.dorik.com/5f95e1fddbb5f5001186829f/613668d3f58004001180a673/images/powered_glb6f1cb.webp" alt="Powered By Solana" className="solana"/>
+              </a>
+              {/* <p className="bold-p">
                 NFT gaming platform powered by <span>Solana</span>...
-              </p>
+              </p> */}
 
               {/* <button type="button" class="btn btn-outline-success btn-lg">
                 Read more
@@ -144,31 +146,18 @@ function Landing() {
                 Play video
               </button> */}
             </div>
-            <div class="col-md-5">
-              <img
-                src={Image1}
-                alt="Header"
-                className="h-img"
-              />
-            </div>
           </div>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 250">
-          <path
-            fill="#fff"
-            fill-opacity="1"
-            d="M0,128L48,117.3C96,107,192,85,288,80C384,75,480,85,576,112C672,139,768,181,864,181.3C960,181,1056,139,1152,122.7C1248,107,1344,117,1392,122.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-          ></path>
-        </svg>
       </header>
 
       <section class="companies">
         <div class="container text-center">
           <div class="row g-5">
-            <h2>Stickland</h2>
 
             <div>
-              <p>We are all descendants of the stickmen. The Evolution of stickmen began with a vision to create an ecosystem of like minds across the world infusing inculusiveness and diversity as our MO (Mode of Operation) while also focusing on the dire effect of climate change ravaging the World.
+              <br/>
+              <h2 className="bol">Stickland</h2>
+              <p>We are all descendants of the stickmen. The Evolution of stickmen began with a <span className="sps">vision</span> to create an ecosystem of like minds across the world infusing inculusiveness and diversity as our MO (Mode of Operation) while also focusing on the dire effect of climate change ravaging the World.
               </p>
 
             </div>
@@ -177,21 +166,19 @@ function Landing() {
       </section>
 
       <section class="feature gradient">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-          <path
-            fill="#fff"
-            fill-opacity="1"
-            d="M0,224L48,213.3C96,203,192,181,288,154.7C384,128,480,96,576,117.3C672,139,768,213,864,208C960,203,1056,117,1152,101.3C1248,85,1344,139,1392,165.3L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
-          ></path>
-        </svg>
+
         <div class="container">
           <div class="row align-items-center">
-            <div class="col-md-6">
-              <img src={Image2} alt="" />
-            </div>
+            {/* <div class="col-md-6">
+              <img
+                src={Image1}
+                alt="Header"
+                className="h-img"
+              />
+            </div> */}
 
-            <div class="col-md-6">
-              <p>In this raging meta-verse, 7777 wonderfully vibrant stickmen journey through Stickland's hurdles and compelling challenges to gain the ultimate reward for victory. the Stickland.io is a community-focused NFT gaming ecosystem with a DAO framework which gives exclisive voting rights to stickmen to develop the next hurdle/stages and create progression within our community.
+            <div class="col-md-6 pad">
+              <p>In this raging meta-verse, 7777 wonderfully vibrant stickmen journey through Stickland's hurdles and compelling challenges to gain the ultimate reward for victory. the <span className="sps">Stickland.io</span> is a community-focused NFT gaming ecosystem with a DAO framework which gives exclisive voting rights to stickmen to develop the next hurdle/stages and create progression within our community.
               </p>
               <p>
                 After each challenge is surmounted, the community decides on which tasking future awaits the stickmen in the ever promising land of the Sticks.
@@ -199,15 +186,11 @@ function Landing() {
             </div>
           </div>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-          <path
-            fill="#fff"
-            fill-opacity="1"
-            d="M0,224L48,213.3C96,203,192,181,288,154.7C384,128,480,96,576,117.3C672,139,768,213,864,208C960,203,1056,117,1152,101.3C1248,85,1344,139,1392,165.3L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-          ></path>
-        </svg>
+        <div className="hrs">
+          <hr width="70%" />
+        </div>
       </section>
-      <div className="row">
+      {/* <div className="row">
         <div className="col-md-6">
           <h2 className="pad">Stickland P2E and PVP RPG/VR game</h2>
           <p className="pad">Available on web, Android, iOS and Windows for RPG Xbox for VR </p>
@@ -218,13 +201,6 @@ function Landing() {
       </div>
 
       <section class="services gradient">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220">
-          <path
-            fill="#fff"
-            fill-opacity="1"
-            d="M0,96L34.3,106.7C68.6,117,137,139,206,122.7C274.3,107,343,53,411,53.3C480,53,549,107,617,117.3C685.7,128,754,96,823,96C891.4,96,960,128,1029,154.7C1097.1,181,1166,203,1234,202.7C1302.9,203,1371,181,1406,170.7L1440,160L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"
-          ></path>
-        </svg>
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <p className="col-md-6 p">
@@ -236,13 +212,7 @@ function Landing() {
 
           </div>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 210">
-          <path
-            fill="#fff"
-            fill-opacity="1"
-            d="M0,96L34.3,106.7C68.6,117,137,139,206,122.7C274.3,107,343,53,411,53.3C480,53,549,107,617,117.3C685.7,128,754,96,823,96C891.4,96,960,128,1029,154.7C1097.1,181,1166,203,1234,202.7C1302.9,203,1371,181,1406,170.7L1440,160L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
-          ></path>
-        </svg>
+        
       </section>
 
       <div className="container">
@@ -260,13 +230,7 @@ function Landing() {
       </div>
 
       <section class="services gradient">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220">
-          <path
-            fill="#fff"
-            fill-opacity="1"
-            d="M0,96L34.3,106.7C68.6,117,137,139,206,122.7C274.3,107,343,53,411,53.3C480,53,549,107,617,117.3C685.7,128,754,96,823,96C891.4,96,960,128,1029,154.7C1097.1,181,1166,203,1234,202.7C1302.9,203,1371,181,1406,170.7L1440,160L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"
-          ></path>
-        </svg>
+        
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <p className="col-md-6 p">
@@ -278,143 +242,102 @@ function Landing() {
             </p>
           </div>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 210">
-          <path
-            fill="#fff"
-            fill-opacity="1"
-            d="M0,96L34.3,106.7C68.6,117,137,139,206,122.7C274.3,107,343,53,411,53.3C480,53,549,107,617,117.3C685.7,128,754,96,823,96C891.4,96,960,128,1029,154.7C1097.1,181,1166,203,1234,202.7C1302.9,203,1371,181,1406,170.7L1440,160L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
-          ></path>
-        </svg>
-      </section>
+       
+      </section> */}
 
-      <div className="container">
+      <div className="container sq-bg">
         <div className="row">
           <div className="col-md-6">
-            <h2 className="pad squid">Why Squid Game?</h2>
+            <h2 className="pad squid bol">Why Squid Game?</h2>
             <p className="pad">
-              We can all agree that the era of NFT is upon us. Within a few months, the NFT gaming space has seen a surge in market valuation up to 100 Billion USD with huge potential and fast rising interest from orthodox and newbie gamers around the world. In the light of this sizzling wave, we decided to merge two popular representations, the Stickman and Squid Games, encapsulating them within the NFT Subniche to garner more interest from non-crypto users.
+              We can all agree that the era of NFT is upon us. Within a few months, the NFT gaming space has seen a surge in market valuation up to <span className="sps">100 Billion USD</span> with huge potential and fast rising interest from orthodox and newbie gamers around the world. In the light of this sizzling wave, we decided to merge two popular representations, the Stickman and Squid Games, encapsulating them within the NFT Subniche to garner more interest from non-crypto users.
             </p>
           </div>
-          <div className="col-md-6">
-              <img src={Squid} alt="Squid" className="new-svgs-s"/>
-          </div>
+          {/* <div className="col-md-6">
+            <img src={Squid} alt="Squid" className="new-svgs-s" />
+          </div> */}
         </div>
       </div>
+
+      <br/>
 
       <section class="services gradient">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220">
-          <path
-            fill="#fff"
-            fill-opacity="1"
-            d="M0,96L34.3,106.7C68.6,117,137,139,206,122.7C274.3,107,343,53,411,53.3C480,53,549,107,617,117.3C685.7,128,754,96,823,96C891.4,96,960,128,1029,154.7C1097.1,181,1166,203,1234,202.7C1302.9,203,1371,181,1406,170.7L1440,160L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"
-          ></path>
-        </svg>
+
         <div class="container">
           <div class="row align-items-center justify-content-center">
-            <p className="col-md-6 p">
-              The Stickman representation of Squid Game is only the first of a series of action themed games to be employed in the distant Sticklands ecosystem based pn decisions made by community. This adaptation provides an elaborate way for our users write their own story in highly creative fashion, one that we can assure you, will be fun as it progresses!
+            <p className="col-md-6 pad">
+              The Stickman representation of <span className="sps">Squid Game</span> is only the first of a series of action themed games to be employed in the distant Sticklands ecosystem based pn decisions made by community. This adaptation provides an elaborate way for our users write their own story in highly creative fashion, one that we can assure you, will be fun as it progresses!
             </p>
             <div className="col-md-6">
-              <img src={SquidP} alt="Squid" className="new-svgs-s"/>
+            <img src={Squid} alt="Squid" className="new-svgs-s" />
           </div>
           </div>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 210">
-          <path
-            fill="#fff"
-            fill-opacity="1"
-            d="M0,96L34.3,106.7C68.6,117,137,139,206,122.7C274.3,107,343,53,411,53.3C480,53,549,107,617,117.3C685.7,128,754,96,823,96C891.4,96,960,128,1029,154.7C1097.1,181,1166,203,1234,202.7C1302.9,203,1371,181,1406,170.7L1440,160L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
-          ></path>
-        </svg>
+        <div className="hrs" id="road-map">
+          <hr width="70%" />
+        </div>
       </section>
 
       <section class="services gradient roads">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220">
-          <path
-            fill="#fff"
-            fill-opacity="1"
-            d="M0,96L34.3,106.7C68.6,117,137,139,206,122.7C274.3,107,343,53,411,53.3C480,53,549,107,617,117.3C685.7,128,754,96,823,96C891.4,96,960,128,1029,154.7C1097.1,181,1166,203,1234,202.7C1302.9,203,1371,181,1406,170.7L1440,160L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"
-          ></path>
-        </svg>
+
         <div class="container">
-          <h2 className="road-h">Road Map</h2>
+          <h2 className="road-h bol">Road Map</h2>
           <div class="row flex-a">
 
-            <div className="col-md-6 p road-maps">
+            <div className="col-md-6 pad road-maps">
               <h3><li>Website Launch and NFT launch Countdown</li></h3>
               <p>
-                Development of an Interactive Website with Key details on all activities Timelines and project guide. The website will also disseminate Information on Pre sale Countdowns and Public Mint plans. The price per stickman is 1 sol.
+                Development of an Interactive Website with Key details on all activities Timelines and project guide. The website will also disseminate Information on Pre sale Countdowns and Public Mint plans. The price per <span className="sps">stickman</span> is 1 sol.
               </p>
             </div>
-            <div className="col-md-6">
+            {/* <div className="col-md-6">
               <img src={WebLaunch} alt="web" className="new-svgs" />
-            </div>
+            </div> */}
 
           </div>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 210">
-          <path
-            fill="#fff"
-            fill-opacity="1"
-            d="M0,96L34.3,106.7C68.6,117,137,139,206,122.7C274.3,107,343,53,411,53.3C480,53,549,107,617,117.3C685.7,128,754,96,823,96C891.4,96,960,128,1029,154.7C1097.1,181,1166,203,1234,202.7C1302.9,203,1371,181,1406,170.7L1440,160L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
-          ></path>
-        </svg>
       </section>
 
       <div className="container">
-        <div className="row">
-          <div className="col-md-6">
+        <div className="row flex-a">
+          {/* <div className="col-md-6">
             <img src={Communi} alt="web" className="new-svgs" />
-          </div>
-          <div className="col-md-6 p road-maps">
+          </div> */}
+          <div className="col-md-6 pad road-maps">
             <h3><li>Community Engagement</li></h3>
             <p>
-              We will host regular Community Engagement events to keep the stickmen in Stickland informed on the progress and Milestones we have achieved and our plans for the future, as well as sharing thier Ideas and Voting to include them into the community's plans. Our Channels are discord, Twitter, Clubhouse.
+              We will host regular Community Engagement events to keep the stickmen in Stickland informed on the progress and <span className="sps">Milestones</span> we have achieved and our plans for the future, as well as sharing thier Ideas and Voting to include them into the community's plans. Our Channels are discord, Twitter, Clubhouse.
             </p>
           </div>
         </div>
       </div>
 
       <section class="services gradient roads">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220">
-          <path
-            fill="#fff"
-            fill-opacity="1"
-            d="M0,96L34.3,106.7C68.6,117,137,139,206,122.7C274.3,107,343,53,411,53.3C480,53,549,107,617,117.3C685.7,128,754,96,823,96C891.4,96,960,128,1029,154.7C1097.1,181,1166,203,1234,202.7C1302.9,203,1371,181,1406,170.7L1440,160L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"
-          ></path>
-        </svg>
+
         <div class="container">
-          <div className="row">
-            <div className="col-md-6 p road-maps">
+          <div className="row flex-a">
+            <div className="col-md-6 pad road-maps">
               <h3><li>Pre Sale and Public Mint</li></h3>
               <p>
-                Pre Sales will be Focused on the first 1000 Stickmen in a blind Mint Session through the stickland website where the first 100 stickmen locked away in the Devs wallet Minted personally by the team. The public Mint will then offer the remaining 8,888. The unclaimed stickmen will either be minted by the team members interested or burnt
+                Pre Sales will be Focused on the first 1000 Stickmen in a blind Mint Session through the stickland website where the first <span className="sps">100 stickmen</span> locked away in the Devs wallet Minted personally by the team. The public Mint will then offer the remaining 8,888. The unclaimed stickmen will either be minted by the team members interested or burnt
               </p>
             </div>
-            <div className="col-md-6">
+            {/* <div className="col-md-6">
               <img src={Sell} alt="web" className="new-svgs" />
-            </div>
+            </div> */}
           </div>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 210">
-          <path
-            fill="#fff"
-            fill-opacity="1"
-            d="M0,96L34.3,106.7C68.6,117,137,139,206,122.7C274.3,107,343,53,411,53.3C480,53,549,107,617,117.3C685.7,128,754,96,823,96C891.4,96,960,128,1029,154.7C1097.1,181,1166,203,1234,202.7C1302.9,203,1371,181,1406,170.7L1440,160L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
-          ></path>
-        </svg>
+
       </section>
 
 
       <div className="container">
         <div className="row flex-a">
-          <div className="col-md-6">
-            <img src={Collect} alt="web" className="new-svgs" />
-          </div>
-          <div className="col-md-6 p road-maps">
+          
+          <div className="col-md-6 pad road-maps">
             <h3><li>The Stickland P2E Collectibles Game</li></h3>
             <p>
-              The production of the Stickland game begins Immediately after the Stickland Community has been Identified and Created (include the brief on the game as highlighted above)
+              The production of the <span className="sps">Stickland</span> game begins Immediately after the Stickland Community has been Identified and Created (include the brief on the game as highlighted above)
             </p>
           </div>
 
@@ -422,71 +345,65 @@ function Landing() {
       </div>
 
       <section class="services gradient roads">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220">
-          <path
-            fill="#fff"
-            fill-opacity="1"
-            d="M0,96L34.3,106.7C68.6,117,137,139,206,122.7C274.3,107,343,53,411,53.3C480,53,549,107,617,117.3C685.7,128,754,96,823,96C891.4,96,960,128,1029,154.7C1097.1,181,1166,203,1234,202.7C1302.9,203,1371,181,1406,170.7L1440,160L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"
-          ></path>
-        </svg>
+
         <div class="container">
-          <div className="row">
-            <div className="col-md-6 p road-maps">
+          <div className="row flex-a">
+            <div className="col-md-6 pad road-maps">
               <h3><li>Utility and Patnerships</li></h3>
               <p>
-                Stickmen will get a chance to participate in pre-sales of upcoming NFT projects and patnerships on our launchpad.Stickland will be patnering with other successful NFT projects in the eco system to provide a broader and connected community for our stickmen
+                Stickmen will get a chance to participate in pre-sales of upcoming NFT projects and patnerships on our launchpad.Stickland will be <span className="sps">patnering</span> with other successful NFT projects in the eco system to provide a broader and connected community for our stickmen
               </p>
             </div>
-            <div className="col-md-6">
+            {/* <div className="col-md-6">
               <img src={Agree} alt="web" className="new-svgs" />
-            </div>
+            </div> */}
 
           </div>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 210">
-          <path
-            fill="#fff"
-            fill-opacity="1"
-            d="M0,96L34.3,106.7C68.6,117,137,139,206,122.7C274.3,107,343,53,411,53.3C480,53,549,107,617,117.3C685.7,128,754,96,823,96C891.4,96,960,128,1029,154.7C1097.1,181,1166,203,1234,202.7C1302.9,203,1371,181,1406,170.7L1440,160L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
-          ></path>
-        </svg>
+        
       </section>
 
       <div className="container">
-        <div className="row">
-          <div className="col-md-6">
+        <div className="row flex-a">
+          {/* <div className="col-md-6">
             <img src={Launch} alt="web" className="new-svgs" />
-          </div>
-          <div className="col-md-6 p road-maps">
+          </div> */}
+          <div className="col-md-6 pad road-maps">
             <h3><li>Stickland Launch Pad</li></h3>
             <p>
-              The stickland launchpad will be structured to enable the launch of patnership projects and 1 of 1 NFT'S community projects of our own. Existing Stickmen will have unlimited first time access to the projects launching on the Stickland Launchpad.
+              The stickland launchpad will be structured to enable the launch of patnership projects and 1 of 1 NFT'S community projects of our own. Existing Stickmen will have unlimited first time access to the projects launching on the <span className="sps">Stickland Launchpad</span>.
             </p>
           </div>
         </div>
       </div>
 
-      <br/>
-      <br/>
-      <section class="contact">
+      <div className="hrs">
+        <hr width="70%" />
+      </div>
+
+      <br />
+      <br />
+      <section class="contact" id="socials">
         <div class="container">
-          <div class="row">
-            <div class="col-md-5 c-icons">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-md-6 c-icons">
               <a href="mailto:contact@stickland.io">
-                <img src={MailIcon} className="mail-icon" alt="mail" />
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+                {/* <img src={MailIcon} className="mail-icon" alt="mail" /> */}
               </a>
-              ||
+              
               <a href="tel:+2349039489094">
-                <img src={PhoneIcon} className="mail-icon" alt="phone" />
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+                {/* <img src={PhoneIcon} className="mail-icon" alt="phone" /> */}
               </a>
-              ||
+              
               <a href="https://www.stickland.io">
-                <img src={InternetIcon} className="mail-icon" alt="internet" />
+              <span class="iconify" data-icon="akar-icons:discord-fill"></span>
               </a>
             </div>
-            <div class="col-md-5">
+            {/* <div class="col-md-5">
               <img src={Image3} alt="Contact" />
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -503,3 +420,12 @@ function Landing() {
 }
 
 export default Landing;
+
+
+{/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 210">
+          <path
+            fill="#fff"
+            fill-opacity="1"
+            d="M0,96L34.3,106.7C68.6,117,137,139,206,122.7C274.3,107,343,53,411,53.3C480,53,549,107,617,117.3C685.7,128,754,96,823,96C891.4,96,960,128,1029,154.7C1097.1,181,1166,203,1234,202.7C1302.9,203,1371,181,1406,170.7L1440,160L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+          ></path>
+        </svg> */}

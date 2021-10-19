@@ -67,19 +67,30 @@
     align-items: center;
     width: 100vw;
 } */
+*{
+  max-width: 100vw;
+  color: white;
+}
 html,
 body {
   height: 100%;
   font-size: 1rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Stick', sans-serif;
   width: 100vw;
+  background-color: black;
+}
+.bg-nav{
+  background-color: rgb(245, 245, 82);
+}
+.logo{
+  width: 40px;
 }
 
 /* section{
   width: 100vw;
 } */
 
-.gradient {
+/* .gradient {
   background: rgb(0, 97, 242);
   background: linear-gradient(
     135deg,
@@ -87,18 +98,51 @@ body {
     rgba(105, 0, 199, 1) 100%
   );
   background-image: url('../img/bg.PNG');
-  width: 100vw;
+} */
+
+.gradient{
+  padding-bottom: 10px;
+}
+.road-maps{
+  padding-bottom: 10px;
 }
 
 .page-header {
-  /* margin-top: 4rem; */
-  font-size: 1.25rem;
-  color: #fff;
+  margin-top: 4rem;
+  font-size: 2.25rem;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Stick', sans-serif;
+  /* color: #fff; */
+}
+.solana{
+  font-size: 1rem;
+  max-height: 2.5rem;
+}
+.sps{
+  color: rgb(245, 245, 82);
+}
+.h-h1{
+  color: rgb(245, 245, 82);
+}
+.bold-head{
+  font-weight: 900;
+  color: rgb(245, 245, 82);
+}
+.bol{
+  font-weight: 900;
+  color: rgb(245, 245, 82);
 }
 
-.feature {
+/* .feature {
   color: #fff;
-}
+} */
 
 .feature ul {
   padding-left: 2rem;
@@ -124,17 +168,17 @@ body {
   justify-content: center;
 }
 
-.gallery {
+/* .gallery {
   background-color: whitesmoke;
-}
+} */
 
 .gallery img {
   border-radius: 5%;
 }
 
-.services {
+/* .services {
   color: #fff;
-}
+} */
 
 footer {
   color: #fff;
@@ -144,7 +188,7 @@ footer {
 }
 
 a {
-  color: #fff;
+  /* color: #fff; */
   text-decoration: none;
 }
 .h-img{
@@ -160,11 +204,17 @@ a {
   justify-content: space-evenly;
   align-items: center;
 }
+.sq-bg{
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.4)), url("../img/squid2.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .squid{
   align-self: center;
 }
 .pad{
-  padding: 10px;
+  padding: 15px;
 }
 .flex-a{
   justify-content: space-around;
@@ -183,11 +233,25 @@ a {
   width: 500px; 
   height: 200px;
 } */
-
+.road-maps li {
+  color: rgb(245, 245, 82);
+}
+.hrs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(245, 245, 82);
+  font-weight: bolder;
+}
 .new-svgs{
   height: 200px;
+  width: inherit;
 }
 .new-svgs-s{
   height: 300px;
+  width: inherit;
 }
-
+.fa, .fab{
+  color: white;
+}
