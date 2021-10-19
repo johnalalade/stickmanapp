@@ -181,6 +181,7 @@ function Landing() {
               </p>
               <p>
                 After each challenge is surmounted, the <span className="sps">community</span> decides on which tasking future awaits the stickmen in the ever promising land of the Sticks.
+              </p>
             </div>
           </div>
         </div>
