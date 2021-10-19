@@ -117,9 +117,9 @@ function Landing() {
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#overview">Overview</a>
               </li>
-              <li class="nav-item">
+              {/*<li class="nav-item">
                 <a class="nav-link" href="#road-map">Road Map</a>
-              </li>
+              </li>*/}
               <li class="nav-item">
                 <a class="nav-link" href="#socials">Socials</a>
               </li>
@@ -272,21 +272,24 @@ function Landing() {
           </div>
           </div>
         </div>
-        <div className="hrs" id="road-map">
-          <hr width="70%" />
-        </div>
+       
       </section>
-      <div className="hrs">
-        <hr width="70%" />
-      </div>
+     
 
       <br />
-      <br />
+
+     <div className="hrs">
+        <hr width="70%" />
+      </div>
       <div className="solana-div">
         <a href="https://www.solana.com">
                 <img src="https://cdn.dorik.com/5f95e1fddbb5f5001186829f/613668d3f58004001180a673/images/powered_glb6f1cb.webp" alt="Powered By Solana" className="solana"/>
               </a>
        </div>
+       <div className="hrs" id="road-map">
+          <hr width="70%" />
+        </div>
+
       <section class="contact" id="socials">
         <div class="container">
           <div class="row align-items-center justify-content-center">
