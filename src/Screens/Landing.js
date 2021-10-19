@@ -176,7 +176,7 @@ function Landing() {
               />
             </div> */}
 
-            <div class="col-md-6 pad">
+            <div class="pad">
               <p> In this raging meta-verse, 7777 wonderfully vibrant stickmen journey through Stickland's hurdles and compelling challenges to gain the ultimate reward for victory. the <span className="sps">Stickland.io</span> is a community-focused NFT Lifestyle ecosystem with a DAO framework which gives exclusive voting rights to stickmen to develop the next hurdle/stages and create progression within our community.
               </p>
               <p>
