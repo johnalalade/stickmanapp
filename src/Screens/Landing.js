@@ -277,7 +277,7 @@ function Landing() {
         </div>
       </section>
 
-      <section class="services gradient roads">
+      {/*<section class="services gradient roads">
 
         <div class="container">
           <h2 className="road-h bol">Road Map</h2>
@@ -381,7 +381,7 @@ function Landing() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="hrs">
         <hr width="70%" />
