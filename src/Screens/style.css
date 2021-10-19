@@ -122,7 +122,7 @@ body {
   /* color: #fff; */
 }
 .solana-div{
-  align: center;
+  align-items: center;
 }
 .solana{
   font-size: 1rem;
