@@ -155,7 +155,7 @@ function Landing() {
             <div>
               <br/>
               <h2 className="bol">Stickland</h2>
-              <p>We are all descendants of the stickmen. The Evolution of stickmen began with a <span className="sps">vision</span> to create an ecosystem of like minds across the world infusing inculusiveness and diversity as our MO (Mode of Operation) while also focusing on the dire effect of climate change ravaging the World.
+              <p> We are all descendants of the <span className="sps">stickmen</span>. The Evolution of stickmen began with a vision to create an ecosystem of like minds across the world infusing inclusiveness and diversity as our <span className="sps">MO (Mode of Operation)</span> while also focusing on the dire effect of climate change ravaging the World.
               </p>
 
             </div>
@@ -176,11 +176,10 @@ function Landing() {
             </div> */}
 
             <div class="col-md-6 pad">
-              <p>In this raging meta-verse, 7777 wonderfully vibrant stickmen journey through Stickland's hurdles and compelling challenges to gain the ultimate reward for victory. the <span className="sps">Stickland.io</span> is a community-focused NFT gaming ecosystem with a DAO framework which gives exclisive voting rights to stickmen to develop the next hurdle/stages and create progression within our community.
+              <p> In this raging meta-verse, 7777 wonderfully vibrant stickmen journey through Stickland's hurdles and compelling challenges to gain the ultimate reward for victory. the <span className="sps">Stickland.io</span> is a community-focused NFT Lifestyle ecosystem with a DAO framework which gives exclusive voting rights to stickmen to develop the next hurdle/stages and create progression within our community.
               </p>
               <p>
-                After each challenge is surmounted, the community decides on which tasking future awaits the stickmen in the ever promising land of the Sticks.
-              </p>
+                After each challenge is surmounted, the <span className="sps">community</span> decides on which tasking future awaits the stickmen in the ever promising land of the Sticks.
             </div>
           </div>
         </div>
@@ -248,7 +247,7 @@ function Landing() {
           <div className="col-md-6">
             <h2 className="pad squid bol">Why Squid Game?</h2>
             <p className="pad">
-              We can all agree that the era of NFT is upon us. Within a few months, the NFT gaming space has seen a surge in market valuation up to <span className="sps">100 Billion USD</span> with huge potential and fast rising interest from orthodox and newbie gamers around the world. In the light of this sizzling wave, we decided to merge two popular representations, the Stickman and Squid Games, encapsulating them within the NFT Subniche to garner more interest from non-crypto users.
+              We can all agree that the era of NFT is upon us. Within a few months, the NFT space has seen a surge in market valuation up to <span className="sps">100 Billion USD</span> with huge potential and fast rising interest from orthodox and newbie Projects and Collectors around the world::. In the light of this sizzling wave, we decided to merge two popular representations, the Stickman and Squid Games, encapsulating them within the NFT Subniche to garner more interest from non-crypto users.
             </p>
           </div>
           {/* <div className="col-md-6">
