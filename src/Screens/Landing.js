@@ -266,7 +266,7 @@ function Landing() {
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <p className="col-md-6 pad">
-              The Stickman representation of <span className="sps">Squid Game</span> is only the first of a series of action themed games to be employed in the distant Sticklands ecosystem based pn decisions made by community. This adaptation provides an elaborate way for our users write their own story in highly creative fashion, one that we can assure you, will be fun as it progresses!
+              The Stickman representation of <span className="sps">Squid Game</span> is only the first of a series of action themed games to be employed in the distant Sticklands ecosystem based pn decisions made by community. This adaptation provides an elaborate way for our users to write their own story in highly creative fashion, one that we can assure you, will be fun as it progresses!
             </p>
             <div className="col-md-6">
             <img src={Squid} alt="Squid" className="new-svgs-s" />
@@ -319,7 +319,7 @@ function Landing() {
             <div className="col-md-6 pad road-maps">
               <h3><li>Pre Sale and Public Mint</li></h3>
               <p>
-                Pre Sales will be Focused on the first 1000 Stickmen in a blind Mint Session through the stickland website where the first <span className="sps">100 stickmen</span> locked away in the Devs wallet Minted personally by the team. The public Mint will then offer the remaining 8,888. The unclaimed stickmen will either be minted by the team members interested or burnt
+                Pre Sales will be Focused on the first 1000 Stickmen in a blind Mint Session through the stickland website where the first <span className="sps">100 stickmen</span> locked away in the Devs wallet Minted personally by the team. The public Mint will then offer the remaining 6,666. The unclaimed stickmen will either be minted by the team members interested or burnt
               </p>
             </div>
             {/* <div className="col-md-6">
