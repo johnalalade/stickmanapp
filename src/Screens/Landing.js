@@ -127,7 +127,7 @@ function Landing() {
           </div>
         </div>
       </nav>
-      <header class="page-header gradient">
+      <header class="page-header gradient" id="overview">
         <div class="container pt-3">
           <div class="row align-items-center justify-content-center">
             <div class="col-md-5 toppers">
@@ -389,7 +389,7 @@ function Landing() {
       <br />
       <br />
       <div className="solana-div">
-        <a href="https://www.solana.com" id="overview">
+        <a href="https://www.solana.com">
                 <img src="https://cdn.dorik.com/5f95e1fddbb5f5001186829f/613668d3f58004001180a673/images/powered_glb6f1cb.webp" alt="Powered By Solana" className="solana"/>
               </a>
        </div>
