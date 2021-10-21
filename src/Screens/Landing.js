@@ -294,7 +294,7 @@ function Landing() {
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <div class="col-md-6 c-icons">
-              <a href="mailto:contact@stickland.io">
+              <a href="https://twitter.com/SticklandNFT?s=09">
               <i class="fa fa-twitter" aria-hidden="true"></i>
                 {/* <img src={MailIcon} className="mail-icon" alt="mail" /> */}
               </a>
@@ -304,7 +304,7 @@ function Landing() {
                 {/* <img src={PhoneIcon} className="mail-icon" alt="phone" /> */}
               </a>
               
-              <a href="https://www.stickland.io">
+              <a href="https://discord.gg/xXdpS5PB">
               <span class="iconify" data-icon="akar-icons:discord-fill"></span>
               </a>
             </div>
