@@ -294,17 +294,17 @@ function Landing() {
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <div class="col-md-6 c-icons">
-              <a href="https://twitter.com/SticklandNFT?s=09">
+              <a href="https://twitter.com/SticklandNFT?s=09" target="_blank">
               <i class="fa fa-twitter" aria-hidden="true"></i>
                 {/* <img src={MailIcon} className="mail-icon" alt="mail" /> */}
               </a>
               
-              <a href="tel:+2349039489094">
+              <a href="tel:+2349039489094" target="_blank">
               <i class="fa fa-instagram" aria-hidden="true"></i>
                 {/* <img src={PhoneIcon} className="mail-icon" alt="phone" /> */}
               </a>
               
-              <a href="https://discord.gg/xXdpS5PB">
+              <a href="https://discord.gg/xXdpS5PB" target="_blank">
               <span class="iconify" data-icon="akar-icons:discord-fill"></span>
               </a>
             </div>
