@@ -1,7 +1,7 @@
 // import Video from './video.mp4';
 // import Image2 from "../img/handshake.svg"
 // import Image3 from '../img/seo_monochromatic.svg'
-import Image1 from '../img/sticklogo.jpeg'
+import Image1 from '../img/E3D3C89B-AEBB-4C35-9BB4-676A12DAA932.jpeg'
 // import MailIcon from '../img/mailicon.png'
 // import PhoneIcon from '../img/phoneicon.jfif'
 // import InternetIcon from '../img/interneticon.jfif'
