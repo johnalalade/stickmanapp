@@ -304,7 +304,7 @@ function Landing() {
                 {/* <img src={PhoneIcon} className="mail-icon" alt="phone" /> */}
               </a>
               
-              <a href="https://discord.gg/xXdpS5PB" target="_blank" rel="noreferrer">
+              <a href="https://discord.gg/tdWTBcPUwV" target="_blank" rel="noreferrer">
               <span class="iconify" data-icon="akar-icons:discord-fill"></span>
               </a>
             </div>
